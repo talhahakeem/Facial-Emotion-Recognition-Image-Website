@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #4b4f58;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.start-btn {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #3f4f8f;
+}
+
+.webcam-container {
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+label-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+label-container div {
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0;
+}
